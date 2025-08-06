@@ -58,7 +58,7 @@ Este comando:
 Una vez construida la base de datos, lanza la interfaz para interactuar con el agente:
 
 ```bash
-python agent.py
+adk web
 ```
 
 💡 Una vez que se abra la interfaz gráfica de ADK en tu navegador, selecciona "agent" en la pestaña superior izquierda para interactuar con el agente configurado.
