@@ -44,17 +44,6 @@ vectorstore = Chroma(
 )
 
 # ========================
-# VERIFICACIÓN DE FUNCIONAMIENTO
-# ========================
-
-# Verificar recuperación de chunks similares
-results = vectorstore.similarity_search("exito", k=1)
-for i, doc in enumerate(results):
-    print(f"\n🔹 Resultado #{i + 1}")
-    print("Contenido:", doc.page_content[:200], "...")
-    print("Metadatos:", doc.metadata)
-
-# ========================
 # DEFINICIÓN DE HERRAMIENTAS
 # ========================
 
