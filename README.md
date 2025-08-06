@@ -19,13 +19,14 @@ Este proyecto implementa un sistema de **Recuperación Aumentada por Generación
 
 Linux/Mac:
 
+```bash
 git clone https://github.com/ValdazoAmerico/rag-retriever.git && \
 cd rag-retriever && \
 python -m venv venv && \
 source venv/bin/activate && \
 pip install --upgrade pip && \
 pip install -r requirements.txt
-
+```
 
 ## 🔐 Configuración
 
@@ -35,7 +36,6 @@ Crea un archivo `.env` en el directorio raíz del proyecto:
 
 ```env
 OPENAI_API_KEY=tu_clave_openai_aqui
-GOOGLE_API_KEY=tu_clave_google_aqui
 ```
 
 ## 🛠️ Uso
