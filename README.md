@@ -8,8 +8,6 @@ Este proyecto implementa un sistema de **Recuperación Aumentada por Generación
 - [Instalación](#-instalación)
 - [Configuración](#-configuración)
 - [Uso](#-uso)
-- [Estructura del Proyecto](#-estructura-del-proyecto)
-- [Contribución](#-contribución)
 
 ## 🚀 Requisitos
 
@@ -17,38 +15,17 @@ Este proyecto implementa un sistema de **Recuperación Aumentada por Generación
 - **Acceso a la API de OpenAI** (`OPENAI_API_KEY`)
 - Dependencias listadas en `requirements.txt`
 
-## 📦 Instalación
+## Instalación
 
-### 1. Clonar el repositorio
+Linux/Mac:
 
-```bash
-git clone https://github.com/tu_usuario/rag-retriever.git
-cd rag-retriever
-```
-
-### 2. Crear entorno virtual
-
-```bash
-python -m venv venv
-```
-
-**Activar el entorno virtual:**
-
-- **Linux/Mac:**
-  ```bash
-  source venv/bin/activate
-  ```
-- **Windows:**
-  ```bash
-  venv\Scripts\activate
-  ```
-
-### 3. Instalar dependencias
-
-```bash
-pip install --upgrade pip
+git clone https://github.com/ValdazoAmerico/rag-retriever.git && \
+cd rag-retriever && \
+python -m venv venv && \
+source venv/bin/activate && \
+pip install --upgrade pip && \
 pip install -r requirements.txt
-```
+
 
 ## 🔐 Configuración
 
