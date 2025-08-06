@@ -18,11 +18,6 @@ from google.adk.models.lite_llm import LiteLlm
 # Cargar variables de entorno
 load_dotenv()
 
-# Variables de configuración
-APP_NAME = "project_app"
-USER_ID = "user1234"
-SESSION_ID = "1234"
-
 # Acceder a las variables de entorno
 openai_api_key = os.getenv("OPENAI_API_KEY")
 
