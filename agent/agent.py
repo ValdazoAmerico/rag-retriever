@@ -22,7 +22,6 @@ load_dotenv()
 APP_NAME = "project_app"
 USER_ID = "user1234"
 SESSION_ID = "1234"
-MODEL_ID = "gemini-2.0-flash"
 
 # Acceder a las variables de entorno
 openai_api_key = os.getenv("OPENAI_API_KEY")
