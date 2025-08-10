@@ -50,10 +50,7 @@ vectorstore = Chroma(
 def retriever(query: str) -> dict:
     """Retrieve relevant documents from the vector store based on the query."""
     results = vectorstore.similarity_search(query, k=1)
-    if results:
-        return {"status": "success", "content": results[0].page_content}
-    else:
-        return {"status": "error", "message": "No relevant documents found."}
+    return {"status": "success", "content": results[0].page_content}
 
 # Crear la herramienta
 retriever_tool = FunctionTool(func=retriever)
