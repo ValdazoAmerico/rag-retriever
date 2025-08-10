@@ -1,0 +1,7 @@
+El éxito de un proyecto en nuestra agencia depende de tres pilares fundamentales: la comunicación clara, la gestión del tiempo y la rentabilidad.
+
+La comunicación clara se logra manteniendo reuniones de seguimiento semanales y utilizando el canal de Slack #proyectos-activos para actualizaciones diarias. Es crucial documentar todas las decisiones importantes en la plataforma de COR.
+
+Para la gestión del tiempo, cada tarea debe ser estimada en horas antes de iniciar un sprint. Utilizamos la técnica Pomodoro para mantener el enfoque y registramos el tiempo de cada actividad en COR para asegurar que nos mantenemos dentro del presupuesto. El Project Manager es responsable de ajustar el cronograma si surgen desvíos.
+
+La rentabilidad se monitorea constantemente a través del dashboard de COR. Cualquier proyecto que caiga por debajo del 20% de margen de ganancia requiere una revisión inmediata. Los costos inesperados deben ser aprobados por el cliente antes de ser incurridos para evitar sorpresas en la facturación.
